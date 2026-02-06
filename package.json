@@ -8,7 +8,7 @@
     "build": "webpack --mode production"
   },
   "keywords": ["siyuan", "plugin", "mermaid", "zoom"],
-  "author": "",
+  "author": "shaohang.wu",
   "license": "MIT",
   "packageManager": "pnpm@10.11.0",
   "devDependencies": {

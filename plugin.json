@@ -1,7 +1,7 @@
 {
   "name": "siyuan-plugin-mermaid-zoom",
-  "author": "",
-  "url": "https://github.com/siyuan-plugin-mermaid-zoom",
+  "author": "shaohang.wu",
+  "url": "https://github.com/583175694/siyuan-plugin-mermaid-zoom",
   "version": "0.1.0",
   "minAppVersion": "3.5.3",
   "backends": ["all"],
