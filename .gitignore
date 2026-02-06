@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.js
+*.css
+*.js.map
+!webpack.config.js
+package.zip

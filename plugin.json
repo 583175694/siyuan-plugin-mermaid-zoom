@@ -1,0 +1,35 @@
+{
+  "name": "siyuan-plugin-mermaid-zoom",
+  "author": "",
+  "url": "https://github.com/siyuan-plugin-mermaid-zoom",
+  "version": "0.1.0",
+  "minAppVersion": "3.5.3",
+  "backends": ["all"],
+  "frontends": ["desktop", "browser-desktop"],
+  "disabledInPublish": false,
+  "displayName": {
+    "default": "Mermaid Zoom",
+    "zh_CN": "Mermaid 图表放大预览"
+  },
+  "description": {
+    "default": "Double-click to zoom and pan Mermaid/Graphviz/PlantUML diagrams in a fullscreen dialog",
+    "zh_CN": "双击 Mermaid/Graphviz/PlantUML 图表即可全屏放大查看，支持缩放和拖拽"
+  },
+  "readme": {
+    "default": "README.md",
+    "zh_CN": "README_zh_CN.md"
+  },
+  "funding": {
+    "custom": []
+  },
+  "keywords": [
+    "mermaid",
+    "zoom",
+    "preview",
+    "图表",
+    "放大",
+    "全屏",
+    "graphviz",
+    "plantuml"
+  ]
+}

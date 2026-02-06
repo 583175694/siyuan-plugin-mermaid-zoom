@@ -1,0 +1,28 @@
+{
+  "name": "siyuan-plugin-mermaid-zoom",
+  "version": "0.1.0",
+  "description": "Zoom and pan Mermaid/Graphviz/PlantUML diagrams in SiYuan Note",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": ["siyuan", "plugin", "mermaid", "zoom"],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.11.0",
+  "devDependencies": {
+    "copy-webpack-plugin": "^13.0.1",
+    "css-loader": "^7.1.3",
+    "esbuild-loader": "^4.4.2",
+    "mini-css-extract-plugin": "^2.10.0",
+    "sass": "^1.97.3",
+    "sass-loader": "^16.0.7",
+    "siyuan": "^1.1.7",
+    "tslib": "^2.8.1",
+    "typescript": "^5.9.3",
+    "webpack": "^5.105.0",
+    "webpack-cli": "^6.0.1",
+    "zip-webpack-plugin": "^4.0.3"
+  }
+}
