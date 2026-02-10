@@ -1,7 +1,6 @@
 import {
   Plugin,
   showMessage,
-  getFrontend,
 } from "siyuan";
 import "./index.scss";
 import { openZoomDialog } from "./zoom-dialog";
@@ -50,13 +49,9 @@ function findChartSvg(block: Element): SVGElement | null {
 export default class MermaidZoomPlugin extends Plugin {
   private handleDblClick!: (e: MouseEvent) => void;
   private observer: MutationObserver | null = null;
-  private isMobile: boolean = false;
   private debounceTimer: ReturnType<typeof setTimeout> | null = null;
 
   onload() {
-    const frontEnd = getFrontend();
-    this.isMobile = frontEnd === "mobile" || frontEnd === "browser-mobile";
-
     // 注册自定义 SVG 图标
     this.addIcons(`
       <symbol id="iconMermaidZoom" viewBox="0 0 24 24">

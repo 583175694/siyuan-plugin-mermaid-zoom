@@ -30,7 +30,7 @@ A [SiYuan Note](https://b3log.org/siyuan) plugin that adds **click-to-zoom previ
 
 ### Manual Installation
 
-1. Download `package.zip` from [Releases](https://github.com/your-username/siyuan-plugin-mermaid-zoom/releases)
+1. Download `package.zip` from [Releases](https://github.com/583175694/siyuan-plugin-mermaid-zoom/releases)
 2. Extract to `{SiYuan workspace}/data/plugins/siyuan-plugin-mermaid-zoom/`
 3. Restart SiYuan or refresh the page
 
@@ -63,4 +63,3 @@ pnpm run build
 ## License
 
 [MIT](LICENSE)
-# siyuan-plugin-mermaid-zoom

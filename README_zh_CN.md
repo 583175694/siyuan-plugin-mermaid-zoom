@@ -30,7 +30,7 @@
 
 ### 手动安装
 
-1. 从 [Releases](https://github.com/your-username/siyuan-plugin-mermaid-zoom/releases) 下载 `package.zip`
+1. 从 [Releases](https://github.com/583175694/siyuan-plugin-mermaid-zoom/releases) 下载 `package.zip`
 2. 解压到 `{思源工作空间}/data/plugins/siyuan-plugin-mermaid-zoom/`
 3. 重启思源或刷新页面
 
