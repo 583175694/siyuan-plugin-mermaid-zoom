@@ -62,4 +62,4 @@ pnpm run build
 
 ## 许可证
 
-[MIT](LICENSE)
+[MIT](https://github.com/583175694/siyuan-plugin-mermaid-zoom/blob/main/LICENSE)
